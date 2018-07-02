@@ -22,7 +22,7 @@ public class Exampletwodim {
 	
 	public static void main(String[] args) {
 		//args[0] if passed via cli
-		String url = "http://api.openweathermap.org/data/2.5/weather?zip=07054&APPID=7445cc8fd6187760cfe7190b49948578";
+		String url = "http://api.openweathermap.org/data/2.5/weather?zip=08820&APPID=7445cc8fd6187760cfe7190b49948578";
 	    try {
 	    	String result = getHTML(url);
 	    	System.out.println(result);
